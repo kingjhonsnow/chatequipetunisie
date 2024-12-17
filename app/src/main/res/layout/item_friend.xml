@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginVertical="1dp"
+    app:cardBackgroundColor="#FAFFFFFF"
+    app:cardElevation="2dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="8dp"
+        >
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="50dp"
+            android:id="@+id/ivfriend"
+            android:layout_height="55dp"
+            android:src="@drawable/avatar"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+
+            />
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:lines="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/ivfriend"
+            android:id="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivfriend"
+            tools:text="seif edine jaziri"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:lines="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@id/ivfriend"
+            android:id="@+id/tvlastmsg"
+            android:layout_below="@+id/tvname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivfriend"
+            tools:text="salut"
+            />
+        <TextView
+            android:id="@+id/tvhour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:lines="1"
+            android:textSize="12sp"
+            tools:text="12:00"
+            />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

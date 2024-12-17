@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "175272316137",
+    "project_id": "chatequipetunisie-ee2f1",
+    "storage_bucket": "chatequipetunisie-ee2f1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175272316137:android:7b00fc4923e9feb5bc7478",
+        "android_client_info": {
+          "package_name": "com.example.chatequipetunisie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-ZFprEw_h3R9vMDpED42IWRtKe47cKu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
